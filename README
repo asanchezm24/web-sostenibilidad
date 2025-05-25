@@ -1,0 +1,42 @@
+# Sostenibilitat en Acció
+
+Aquesta pàgina web té com a objectiu promoure pràctiques sostenibles i conscienciar sobre la importància de cuidar el nostre planeta. Aquí trobaràs consells pràctics, recursos i informació sobre com adoptar hàbits més sostenibles en la vida diària.
+
+## Descripció
+
+Sostenibilitat en Acció és una plataforma educativa que proporciona recursos sobre temes com el reciclatge, l'ús responsable de l'aigua, l'energia renovable i les accions individuals per lluitar contra el canvi climàtic. L'objectiu és ajudar a les persones a adoptar hàbits més ecològics i a prendre decisions més sostenibles.
+
+## Com començar
+
+Segueix aquests passos per veure la pàgina web localment:
+
+1. Clona el repositori:
+
+
+2. Accedeix a la carpeta del projecte:
+
+
+3. Obre el fitxer `pagina principal.html` al teu navegador per veure la pàgina web localment.
+
+## Tecnologies
+
+- HTML
+- CSS
+
+## Com contribuir
+
+Si tens idees per millorar la pàgina o vols afegir més recursos sobre sostenibilitat, si us plau, segueix aquests passos:
+
+1. Fork del projecte.
+2. Crea una nova branca (`git checkout -b afegir-nova-seccio`).
+3. Fes els canvis necessaris.
+4. Comet les teves modificacions (`git commit -m 'Afegir nova secció sobre reciclatge'`).
+5. Puja les teves canvis a la branca (`git push origin afegir-nova-seccio`).
+6. Crea una pull request al repositori original.
+
+## Autors
+
+- [Adrian Sanchez Martin - 1er DamVi A]
+
+## Llicència
+

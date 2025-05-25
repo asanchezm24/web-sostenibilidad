@@ -1,0 +1,175 @@
+html{
+    height: 100vh;
+    width: 100vw;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.HolyGrail{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5vh 5vh auto auto;
+    grid-template-areas: "header header header"
+    "nav nav nav"
+    "div div imagenes"
+    "footer footer footer";
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 100%;
+    width: 100%;
+    background: black;
+    border: 0;
+}
+nav{
+    grid-area: nav;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header{grid-area: header;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+.nav{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.imagenes{
+    grid-area: imagenes;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    margin: 5%;
+    margin-top: 0.5%;
+    margin-left: 10%;
+}
+
+img{
+    height: 350px;
+    width: 450px;
+    box-shadow: 0 0 7px 1px dodgerblue, 0 0 7px 1px cyan;
+    border-radius: 20%;
+    transform-origin: 0;
+    transition: width ease-out 1s, border ease-out 1s, border-radius ease-out 1s;
+
+}
+
+img:hover {height: 400px;
+    width: 550px;
+    box-shadow: 0 0 7px 1px mediumblue, 0 0 7px 1px darkblue;
+    border-radius: 20%;
+}
+
+@keyframes EncimaImagen {
+    0% {
+        height: 350px;
+        width: 450px;
+        box-shadow: 0 0 7px 1px dodgerblue, 0 0 7px 1px cyan;
+        border-radius: 20%; ;
+        transform: translateY(0);
+    }
+    50%{height: 375px;
+        width: 500px;
+        box-shadow: 0 0 7px 1px mediumblue, 0 0 7px 1px darkblue;
+        border-radius: 20%;
+        transform: translateY(-30px);
+    }
+
+    100%{height: 400px;
+        width: 550px;
+        box-shadow: 0 0 7px 1px mediumblue, 0 0 7px 1px darkblue;
+        border-radius: 20%;
+
+        transform: translateY(-30px);
+    }
+}
+
+.div{grid-area: div;
+    display: flex;
+    flex-direction: column;
+    border: #2196F3 solid 5px;
+    border-radius: 1%;
+    width: 98%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.Seccion{
+    padding: 0.5%;
+}
+
+.Seccion2{
+    padding: 1%;
+    padding-left: 7%;
+}
+
+.Lista > li{
+    padding-left: 1%;
+    text-align: left;
+}
+
+.footer{
+    grid-area: footer;
+    text-align: center;
+    padding-top: 1%}
+
+a{text-decoration: none;
+color: dodgerblue;}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, black 20%, #2196f3 50%, black 80%);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+
+}
+
+li {
+    float: left;
+    flex-grow: 1;
+    width: 100%;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background: linear-gradient(to bottom, black 20%, #2196f3 50%, black 80%);
+    color: #ffcc80;
+}
+.activo {
+    background: linear-gradient(to bottom, black 20%, #2196f3 50%, black 80%);
+}
+
+
