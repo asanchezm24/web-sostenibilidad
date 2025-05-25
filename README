@@ -1,42 +1,61 @@
-# Sostenibilitat en Acció
+# 🌱 Web de Sostenibilidad
 
-Aquesta pàgina web té com a objectiu promoure pràctiques sostenibles i conscienciar sobre la importància de cuidar el nostre planeta. Aquí trobaràs consells pràctics, recursos i informació sobre com adoptar hàbits més sostenibles en la vida diària.
+Este proyecto es una **web educativa sobre sostenibilidad** desarrollada como parte del módulo **M0373 - Lenguaje de Marcas** del ciclo de **Desarrollo de Aplicaciones Multiplataforma (DAMvi)** en el Institut Sabadell. Su objetivo es concienciar sobre la sostenibilidad a través de contenido informativo, visual y estructurado de forma clara.
 
-## Descripció
+---
 
-Sostenibilitat en Acció és una plataforma educativa que proporciona recursos sobre temes com el reciclatge, l'ús responsable de l'aigua, l'energia renovable i les accions individuals per lluitar contra el canvi climàtic. L'objectiu és ajudar a les persones a adoptar hàbits més ecològics i a prendre decisions més sostenibles.
+## 🌍 Contenido principal
 
-## Com començar
+- Información sobre los **6 ámbitos clave de la sostenibilidad**:
+  - Cambio climático
+  - Energía sostenible
+  - Movilidad
+  - Economía circular
+  - Biodiversidad
+  - Educación y sensibilización
+- Secciones separadas por temas mediante **enlaces de navegación**
+- Uso de **imágenes, vídeos y enlaces externos** para enriquecer el contenido
+- Diseño responsive básico adaptado a distintos dispositivos
 
-Segueix aquests passos per veure la pàgina web localment:
+---
 
-1. Clona el repositori:
+## 🧰 Tecnologías utilizadas
 
+- **HTML5** y **CSS3**
+- **Bootstrap 5** para maquetación y diseño responsive
+- **JavaScript** (opcional o para funcionalidades futuras)
+- No requiere backend ni base de datos
 
-2. Accedeix a la carpeta del projecte:
+---
 
+## 📂 Estructura del proyecto
 
-3. Obre el fitxer `pagina principal.html` al teu navegador per veure la pàgina web localment.
+```
+web-sostenibilidad/
+│
+├── index.html               # Página principal con introducción
+├── cambio-climatico.html    # Tema 1
+├── energia.html             # Tema 2
+├── movilidad.html           # Tema 3
+├── economia.html            # Tema 4
+├── biodiversidad.html       # Tema 5
+├── educacion.html           # Tema 6
+├── css/
+│   └── estilos.css          # Estilos personalizados
+├── img/
+│   └── (imágenes del sitio)
+└── README.md
+```
 
-## Tecnologies
+---
 
-- HTML
-- CSS
+##💡 Posibles mejoras
 
-## Com contribuir
+- Añadir efectos visuales con JavaScript (animaciones, scroll suave)
+- Integrar artículos actualizados mediante una API externa
+- Diseño más avanzado con flexbox/grid y medios interactivos
+- Añadir la opcion de hacer un pequeño cuestionario o trivial al final de cada sección para enfocar al estudio la web.
 
-Si tens idees per millorar la pàgina o vols afegir més recursos sobre sostenibilitat, si us plau, segueix aquests passos:
-
-1. Fork del projecte.
-2. Crea una nova branca (`git checkout -b afegir-nova-seccio`).
-3. Fes els canvis necessaris.
-4. Comet les teves modificacions (`git commit -m 'Afegir nova secció sobre reciclatge'`).
-5. Puja les teves canvis a la branca (`git push origin afegir-nova-seccio`).
-6. Crea una pull request al repositori original.
-
-## Autors
-
-- [Adrian Sanchez Martin - 1er DamVi A]
-
-## Llicència
-
+👨‍💻 Autor
+Adrián Sánchez Martín
+Estudiante de DAMvi – Institut Sabadell
