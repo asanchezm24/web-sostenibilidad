@@ -6,24 +6,25 @@ Este proyecto es una **web educativa sobre sostenibilidad** desarrollada como pa
 
 ## 🌍 Contenido principal
 
-- Información sobre los **6 ámbitos clave de la sostenibilidad**:
-  - Cambio climático
-  - Energía sostenible
-  - Movilidad
-  - Economía circular
-  - Biodiversidad
+- Información sobre los **6 ámbitos clave de la sostenibilidad**:  
+  - Cambio climático  
+  - Energía sostenible  
+  - Movilidad  
+  - Economía circular  
+  - Biodiversidad  
   - Educación y sensibilización
-- Secciones separadas por temas mediante **enlaces de navegación**
-- Uso de **imágenes, vídeos y enlaces externos** para enriquecer el contenido
+
+- Secciones separadas por temas mediante **enlaces de navegación**  
+- Uso de **imágenes, vídeos y enlaces externos** para enriquecer el contenido  
 - Diseño responsive básico adaptado a distintos dispositivos
 
 ---
 
 ## 🧰 Tecnologías utilizadas
 
-- **HTML5** y **CSS3**
-- **Bootstrap 5** para maquetación y diseño responsive
-- **JavaScript** (opcional o para funcionalidades futuras)
+- **HTML5** y **CSS3**  
+- **Bootstrap 5** para maquetación y diseño responsive  
+- **JavaScript** (opcional o para funcionalidades futuras)  
 - No requiere backend ni base de datos
 
 ---
@@ -56,7 +57,7 @@ web-sostenibilidad/
 - Diseño más avanzado con flexbox/grid y medios interactivos
 - Añadir la opcion de hacer un pequeño cuestionario o trivial al final de cada sección para enfocar al estudio la web.
 
---
+---
 
 ## 👨‍💻 Autor
 Adrián Sánchez Martín
